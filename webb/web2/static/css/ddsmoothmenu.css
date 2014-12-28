@@ -1,0 +1,72 @@
+.ddsmoothmenu{
+	font: bold 11px Tahoma;
+	width: 100%;
+	cursor: pointer;
+}
+.ddsmoothmenu a{
+	font: bold 11px Tahoma;
+	color: white;
+	cursor: pointer;
+}
+.ddsmoothmenu ul{
+	z-index:100;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.ddsmoothmenu ul li {
+	position: relative;
+	float: left;
+	margin-right: 20px;
+}
+#smoothmenu1 ul ul{
+	border-right:1px solid #c8cfd5;
+	border-bottom:1px solid #c8cfd5;
+	background-image : url(/webb/web2/images/theme/dropmenudiv.png);
+	border-bottom-width: 1px solid #c8cfd5;   
+}
+.ddsmoothmenu ul li ul li a{
+	color: black;
+	line-height:20px;
+	text-decoration:none;
+}
+.ddsmoothmenu img { padding-right:2px; }
+* html .ddsmoothmenu ul li a{ /*IE6 hack to get sub menu links to behave correctly*/
+	display: inline-block;
+}
+.ddsmoothmenu ul li ul li a:hover{
+	color: #ce0501;
+}
+/*1st sub level menu*/
+.ddsmoothmenu ul li ul{
+	position: absolute;
+	left: 0;
+	display: none; /*collapse all sub menus to begin with*/
+	visibility: hidden;
+}
+/*Sub level menu list items (undo style from Top level List Items)*/
+.ddsmoothmenu ul li ul li{
+	display: list-item;
+}
+.rightarrowclass {
+	position: absolute;
+	left: 140px;
+}
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+.ddsmoothmenu ul li ul li ul{
+	top: 0;
+}
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+/* ######### CSS for shadow added to sub menus  ######### */
+.ddshadow{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 0;
+	background: silver;
+}
+.toplevelshadow{ /*shadow opacity. Doesn't work in IE*/
+	opacity: 0.8;
+}

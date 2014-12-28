@@ -1,0 +1,70 @@
+body { margin:0px;padding:0px;text-align:center;font-family:Tahoma, Verdana, sans-serif, Arial;font-size:11px;color:#525252; }
+a:active,a:visited,a:link { font-family: Tahoma, Verdana, saFns-serif, Arial;text-decoration:none;color:#525252; }
+a:hover { font-family: Tahoma, Verdana, sans-serif, Arial;text-decoration:none;color:#11a3ea; }
+#structure_table { width:100%;background-color:#fff; }
+.gecom_management { padding-top:20px;text-align:center; }
+.gecom_management_font { color:#9C0707;font-weight:bold;font-size:14px; }
+.arrow { color:silver;font-weight:bold; }
+td.gecom_struct_choose_option { background-color:#f2f2f2;padding:25px;text-align:center; }
+td.gecom_struct_border { border-bottom:1px solid #d0d0d0;height:1px;font-size:1px; }
+.gecom_title_font { font-size:9px; }
+.gecom_struct_top { height:20px;background-color:#6699ff;text-align:center; }
+.gecom_struct_top_font { color:#fff;font-weight:bold; }
+a.gecom_adminname_font,a.gecom_adminname_font:hover { font-size:10px;color:#333333; }
+.gecom_membername_font { color:#525252;font-weight:bold; }
+.gecom_struct_avatar { float:left;width:100px;padding:5px;margin-top:1px;height:90px;background-color:#f2f2f2;border-bottom:1px solid #d0d0d0 }
+.gecom_struct_membername { float:left;width:100px;padding:5px;margin-top:1px;background-color:#f2f2f2;border-bottom:1px solid #d0d0d0; height:24px; overflow:hidden;}
+.gecom_struct_arrow { float:left;width:110px; }
+.gecom_struct_admin { float:left;width:98px;padding:5px;margin-top:1px;background-color:#f2f2f2;border:1px solid #d0d0d0; }
+.gecom_struct_admin_space { float:left;width:100px;padding:5px;margin-top:1px;background-color:#f5f5f5; height:33px; overflow:hidden;}
+.gecom_struct_admin_space:hover { float:left;width:100px;padding:4px;border:1px solid #d0d0d0; }
+.gecom_struct_bottom { height:10px;background-color:#FDC357;text-align:center;font-size:1px; }
+.gecom_struct_bottom_font { color:#666666; }
+.gecom_reg_manage_font { color:#9C0707;font-weight:bold; }
+.gecom_reg_headmagecom_font { color:#D72000;font-weight:bold; }
+.gecom_reg_headadmin_font { color:#DD6208;font-weight:bold; }
+.gecom_reg_liga_font { color:#999900;font-weight:bold; }
+.gecom_reg_headeditor_font { color:#006130;font-weight:bold; }
+.gecom_reg_newsman_font { color:#00B300;font-weight:bold; }
+.gecom_reg_supervisor_font { color:#EB8136;font-weight:bold; }
+.gecom_reg_moderator_font { color:#008000;font-weight:bold; }
+.gecom_reg_clan_font { color:#008aff;font-weight:bold; }
+.gecom_reg_cs16admin { font-weight:bold;color:#02859d; }
+.gecom_reg_developer { font-weight:bold;color:#0099CC; }
+.gecom_steamid_font { font-size:9px;color:gray;}
+.font_header { font-size:12px;font-weight:bold; }
+.font_link { color:#fff; }
+a.font_close:link,
+a.font_close:hover,
+a.font_close:visited,
+a.font_close:active { font-weight:bold;color:#fff; }
+.sekcia_server {float:left;width:110px;padding-left:2px;}
+.normal {float:left;width:110px;}
+.footer{ padding:30px; }
+.gecom_struct_info { float:left;width:106px;font-weight:bold;padding:1px;margin-top:1px;border:1px solid #d0d0d0;color:white; }
+.gecom_struct_admint { background-color:#ff6633; }
+.gecom_struct_developer { background-color:#0099ff; }
+.gecom_struct_web { background-color:#00B300; }
+.gecom_struct_liga { background-color:#999900; }
+
+.box_header {
+	text-align:left;
+	font-weight:bold;
+	font-family:arial;
+	border:1px solid #A5CFE9;
+	padding:3px;
+	font-size:11px;
+	color:#4B7A98;
+	background:#D5EBF9;
+}
+.box_body {
+	text-align:left;
+	border-bottom:1px solid #A5CFE9;
+	border-left:1px solid #A5CFE9;
+	border-right:1px solid #A5CFE9;
+	font-family:arial;
+	font-size:11px;
+	padding:3px;
+	color:#1B4966;
+	background:#FFFFFF;
+}

@@ -1,0 +1,423 @@
+.about-me {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#FFFFFF none repeat scroll 0 0;
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-topright:6px;
+	border:1px solid #D8E4F6;
+	margin:5px 5px 10px;
+	position:relative;
+	width:215px;
+}
+.about-me .bd {
+	line-height:1.3em;
+	width:185px;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+.about-me table {
+	border-top:1px solid #C0D1E8;
+	padding-top:5px;
+	width:100%;
+	margin-top:8px;
+}
+.about-me table tr.first td {
+	color:#FF9900;
+	font-weight:bold;
+}
+.about-me table td {
+	padding:1px 0;
+}
+.more-link a{ display:block; margin:10px; color:#2B84C6; }
+.more-link a:hover { display:block; font-weight:bold; margin:10px; color: #000000; text-decoration: underline; }
+.more-link img { position:relative; top:-1px; }
+
+span.game-played-bar em {
+	color:#000000;
+	display:block;
+	font-weight:bold;
+	left:5px;
+	position:absolute;
+	top:2px;
+}
+span.game-played-bar b {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#1A98D6 none repeat scroll 0 0;
+	display:block;
+	height:19px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:0;
+}
+span.game-played-bar {
+	border:1px solid black;
+	display:block;
+	font-size:10px;
+	height:15px;
+	margin-left:77px;
+	padding:2px;
+	position:relative;
+	width:120px;
+	float:left;
+	margin-top:-20px;
+}
+#posledne_hrali {
+	font-size:12px;
+	line-height:1.3em;
+	margin:0 5px;
+}
+#posledne_hrali ol, ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+#posledne_hrali ul.profile-games-list li {
+	margin-bottom:20px;
+}
+#posledne_hrali .clearfix {
+	display:block;
+}
+#posledne_hrali a.icon img {
+	height:64px;
+	margin:2px 0;
+	width:64px;
+}
+#posledne_hrali a.icon span.v-center-wrapper {
+	font-size:12px;
+	height:28px;
+	overflow:hidden;
+}
+#posledne_hrali a.icon span.v-center-middle {
+	color:#9D4B51;
+	line-height:1.2em;
+	padding:0 0 3px 6px;
+}
+#posledne_hrali .v-center-middle {
+	display:table-cell;
+	vertical-align:middle;
+}
+#tabs_profil {
+	font-weight: bold;
+	margin-bottom:5px;
+	/*margin-left:5px;*/
+	margin-right:0;
+	/*margin-top:10px;*/
+	margin-left:-107px;
+}		
+.v-tabs_profil li a {
+	background:transparent url(/web2/web2/images/profil/v-tabs-bg.gif) repeat-x scroll 0 0;
+	border-right:1px solid #C0D1E8;
+	display:block;
+	font-size:11px;
+	padding: 10px 6px 11px 10px;
+	text-shadow:1px 1px 0 #FFFFFF;	
+	color:#2B84C6;
+	text-decoration:none;
+	border:0 none;
+	font-family:inherit;
+	outline-color:-moz-use-text-color;
+	outline-style:none;
+	outline-width:0;
+	vertical-align:baseline;
+	font-weight:bold;
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-topleft:5px;
+	text-align: left;
+}
+.v-tabs_profil li a:hover {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/webb/web2/images/profil/v-tabs-bg.gif) repeat-x scroll 0 -35px;
+	color:#FFFFFF;
+	text-shadow:-1px -1px 0 #000000;
+	font-weight:bold;
+}
+.v-tabs_profil li {
+	cursor:help;
+	float: none;
+	/*margin:0 0 0 0;*/
+	background:transparent url(/webb/web2/images/profil/v-tabs-bg.gif) repeat-x scroll 0 -35px;
+	height:34px;
+	width:97px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-topleft:5px;
+}
+.v-tabs_profil {
+	float: left;
+	width: 110px; 
+	padding-left: 4px;
+}
+#tabs_profil .ui-tabs-nav {
+    border-bottom-width: 0;  
+}	
+#tabs_profil .ui-tabs-panel2 {
+	background: #ECF1F5 none repeat scroll 0 0; /* #FFFFFF */
+	min-height: 500px;
+	padding: 5px;
+	width: 88%;
+	float:left;
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	-moz-border-radius-topleft:0;
+	-moz-border-radius-topright:6px;
+	padding-top:10px;
+	text-align: left;
+}
+.v-tabs_profil .ui-tabs-selected a {			
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:transparent url(/webb/web2/images/profil/v-tabs-bg.gif) repeat-x scroll 0 36px;
+	color:#FFFFFF;
+	text-shadow:-1px -1px 0 #000000;
+	font-weight:bold;
+}
+.v-tabs_profil .ui-tabs-nav, .ui-tabs-panel {
+	border-bottom: 0px solid #D0D0D0;
+}
+.stena {
+	-moz-border-radius-bottomleft:6px;
+	-moz-border-radius-bottomright:6px;
+	-moz-border-radius-topleft:6px;
+	-moz-border-radius-topright:6px;
+	border:1px solid #D8E4F6;
+	margin:5px 5px 10px;
+	background-color:white;
+}
+.stena .hd {
+	padding:10px 14px 0;
+	position:relative;
+}
+.stena .bd {
+	font-size:12px;
+	line-height:1.3em;
+	margin:0 14px;
+}
+.stena .ft {
+	padding:0 14px 10px;
+	position:relative;
+}
+.activity-feed {
+	border-bottom:1px solid #D0DCEE;
+	margin-bottom:4px;
+	margin-top:0;
+}
+.stena ol, ul {
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+.activity-feed li {
+	border-top:1px solid #D0DCEE;
+}
+.date-separator {
+	color:#333333;
+	font-weight:bold;
+	padding:6px 0;
+}
+.clearfix {
+	display:block;
+}
+.activity-feed li .activity-type {
+	font-size:12px;
+	width:58px;
+}
+.activity-feed li .activity-description {
+	width:600px;
+	margin:0 14px 0 72px;
+	padding:14px 0;
+}
+.activity-description div {
+	margin:5px 0 0;
+}
+.activity-description p {
+	line-height:1.3em;
+	margin:1px 0;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.activity-description p b {
+	float:left;
+}
+.activity-feed li.friend .activity-description .s {
+	color:#669900;
+}
+.stena a {
+	color:#2B84C6;
+	font-weight:bold;
+}
+.stena a:hover {
+	color:#000000;
+	cursor:pointer;
+}
+.stena a.s:hover {
+	color:#990000;
+	text-decoration:underline;
+}
+.stena a.s {
+	color:#9D4B51;
+	font-weight:bold;
+}
+.activity-feed .date {
+	color:#A1A8AE;
+	float:right;
+	font-size:11px;
+	margin-right:14px;
+}
+.activity-feed li .icon-levelup {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-levelup.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-vid-comment {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-video-comment.png) no-repeat scroll 50% 50%;
+}
+activity-feed li .icon-like {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-screenshot-liked.png) no-repeat scroll 62% 52%;
+}
+.activity-feed li .icon-screencomment {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-screenshot-comment.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-comment {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-comments.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-forum {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-forum.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-remove {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/profil/icon-remove.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-error {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/tool/warning_nenajdene.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-nothing {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb/web2/images/tool/paper.png) no-repeat scroll 50% 50%;
+}
+.activity-feed li .icon-shop { 
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	background:#E5EFF6 url(/webb//web2/images/shop/obchod_kosik.png) no-repeat scroll 50% 50%;
+}
+
+
+
+.activity-feed li.friend a.thumb {
+	background-color:#B2CD7E;
+}
+a.thumb {
+	-moz-background-clip:border;
+	-moz-background-inline-policy:continuous;
+	-moz-background-origin:padding;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	background:#B0C5E2 none repeat scroll 0 0;
+	float:left;
+	line-height:0;
+	margin-right:10px;
+	position:relative;
+}
+.activity-feed li a.thumb img {
+	height:52px;
+	width:70px;
+}
+.activity-feed li .activity-description img {
+	/*float:left;*/
+}
+/* Fix uzivatelskeho mena */
+#stena .user img { float: none; }
+#stena .user a { color:#669900; }
+.activity-feed li .activity-description div .activity-desc {
+	line-height:1.3em;
+	margin:0 0 0 88px;
+	overflow:hidden;
+	padding:0 0 0;
+	white-space:nowrap;
+	width:355px;
+}
+.activity-feed li .activity-description div .comment-block {
+	border-left:5px solid #C0D1E8;
+	padding:3px 0 3px 6px;
+}
+#profile .activity-feed li .activity-description div .activity-desc {
+	width:330px;
+}
+.activity-feed li .activity-description div .activity-desc a {
+	display:block;
+}
+.activity-feed li .activity-description p {
+	line-height:1.3em;
+	margin:1px 0;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.activity-feed li .activity-description div .comment-block p {
+	font-weight:bold;
+}
+.activity-feed li .activity-description div .activity-desc a {
+	display:block;
+}	
+#stena_next span {
+	float:left;
+}
+a.icon span.v-center-middle {
+	color:#9D4B51;
+	line-height:1.2em;
+	padding:0 0 0 6px;
+}
+#stena_priatelia a { color:#669900; font-weight:bold; }
+.pheader_fix {
+    padding-left:8px;
+}
+.profilNadpis {
+	border-bottom: 1px dotten white;
+	font-size: 9px;
+	padding: 8px;
+	/*border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:1px;*/
+}
+.profil_meno {
+	color: white; /*#F6A828;*/
+	font-weight: bold;
+}

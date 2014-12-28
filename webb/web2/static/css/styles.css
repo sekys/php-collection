@@ -1,0 +1,168 @@
+.alt { color : #005599; }
+.outer-border { border : 1px solid #000; }
+.full-header {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #ddd;
+	background-color : #444;
+	padding : 5px;
+}
+.button {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #f1f1f1;
+	height : 20px;
+	border : 1px solid #ccc;
+	margin-top : 2px;
+}
+.buttonx {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	color : #003c69;
+	background-color : #f1f1f1;
+	height : 20px;
+	border : 1px solid #7f9db9;
+	margin-top : 2px;
+}
+.textbox {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #f8f8f8;
+	border : 1px solid #ccc;   
+	width: 460px;	
+}
+.border {
+	border : 1px solid #c8cfd5;
+}
+.tbl-border {
+	color : #c8cfd5;
+	background-color : #e1e1e1;
+}
+.tbl {
+	font-size : 11px;
+	color : #555;
+	background-color : #fff;
+	padding : 4px;
+}
+.tbl1 {
+	font-size : 11px;
+	color : #555;
+	background-color : #fff;
+	padding : 4px;
+}
+.tbl2 {
+	font-size : 11px;
+	color : #555;
+	background-color : #f1f1f1;
+	padding : 4px;
+}
+.forum-caption {
+	font-size : 11px;
+	font-weight : bold;
+	color : #888;
+	background-color : #f1f1f1;
+	padding : 2px 4px 4px 4px;
+}
+.quote {
+	font-size : 11px;
+	color : #555;
+	background-color : #f8f8f8;
+	padding : 4px;
+	margin : 0px 20px 0px 20px;
+	border : 1px solid #bbb;
+}
+.napisal {
+	font-weight : normal;
+	font-size: 9px;
+	color:#003c69;
+}
+
+
+
+
+
+.poll { height : 12px; border : 1px solid #bbb; }
+.comment-name { font-weight : bold; color : #005599; }
+.shoutboxname { font-weight : bold; color : #ce0501; }
+.shoutbox { color : #777; }
+.shoutboxdate { font-size : 10px; color : #003c69; font-size:8px; }
+.small { font-size : 10px; font-weight : normal; }
+.small2 { font-size : 10px; font-weight : normal; color : #555; }
+.side-small { font-size : 10px; font-weight : normal; color : #555; background-color : #f6f6f6; }
+.side-label { color : #555; background-color : #f1f1f1; padding : 2px 2px 3px 2px; }
+
+
+
+
+
+.gear { color: #003c69; font-weight:bold; }
+.team_ct { color:red; }
+.team_t { color: #0959B3; }
+.paddingtop { padding-top: 20px; }
+
+
+
+.page_infof { font-size:10px; }
+.leftwindow_leftbg { text-align:left; }
+
+.bb { border-bottom:2px solid #FDC357; }
+a.servername_font:active, a.servername_font:visited, a.servername_font:link {
+	color:gray;
+	font-size:10px;
+}
+
+
+
+
+
+.window_content_bg { background-color: white; }
+.serverlist_background { border-bottom:1px dotted #999999; }
+td.voteadmin_td_left { background-color:#F2F2F2; border-top:1px solid #D0D0D0; width:17%; }
+td.voteadmin_td_right { border-left:1px solid #D0D0D0; border-top:1px solid #D0D0D0; }
+span.voteadmin_td_font { font-weight:bold; }
+
+.cup_riadok2 { 
+	background-image:url(/cup/styles/styles_web2/cup_tabulka.png);
+	background-repeat:repeat;
+	color:black;
+	color:#999999;
+	height: 23px;
+}
+.cup_riadok2_hover { 
+	background-image: none;
+	background-repeat: no-repeat;
+	color: white;
+	height: 23px;
+	background-color: #E17009;
+}
+.cup_riadok2_hover a { color: white; }
+.cup_kurz { width: 36px; font-weight: bold; }
+.cup_kurz_hover{
+	background-color: black;
+	color: white;
+	width: 36px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.resizable {
+	float: left;
+	/*height: 180px;
+	width: 240px;*/	
+	height: 196px;
+	width: 256px;
+	margin: 5px;
+}
+.resizable h3 { 
+	text-align: center;
+	height:18px; 
+	padding-bottom:9px;
+	padding-top:1px;
+	font-size:15px;
+	cursor: move;
+	font-family:Trebuchet MS,Helvetica,Arial,Verdana,sans-serif;
+}
+.resizable-panel { padding: 5px; }
+.10pxfont { font-size: 10px; }
+.admin_status { border-top: 1px dotted rgb(208, 208, 208);  background-color: rgb(255, 255, 204); }

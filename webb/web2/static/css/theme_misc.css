@@ -1,0 +1,217 @@
+/* Dennik */
+#dennik {
+	font-size: 10px;	
+	width: 167px;
+	height: 18px;
+	color: orange;
+	border:1px dashed Bisque;
+	font-weight:bold;
+}
+#dennik :hover{ border: 1px dashed green;	}
+#dennik-text { 
+	font-size: 9px; 
+}
+.denniktext {
+	width:180px;
+	display:block;
+	white-space:pre-wrap;
+	word-wrap:break-word;
+	overflow:hidden;
+	color:#000000;
+}
+
+/* Novinka */
+#newsaccordion h3 {
+	margin-bottom:0;
+	margin-top:0;	
+	display:inline;
+}
+#newsaccordion .panel {
+	margin-top:15px;	
+}
+#newsaccordion .date {
+	float:right;
+	padding-top:4px;
+	padding-right:4px;
+}
+#newsaccordion .msg img {
+	margin:5px;
+}
+.main-bg .newsmore {
+	margin:15px;
+}
+
+
+/* Pravidla */
+.webtip { 
+	padding:10px 6px;
+}
+.webtip .ui-icon { 
+	float: left; 
+	margin-right: 0.3em; 
+}
+.webtip .tipaction {
+	font-size:11px;	
+	cursor:pointer;
+}
+.legenda li { list-style:none; }
+.legenda li img { margin-right:5px; padding: 5px}
+.pravidla_head {
+	-moz-border-radius-bottomleft:20px;
+	-moz-border-radius-bottomright:20px;
+	-moz-border-radius-topleft:20px;
+	-moz-border-radius-topright:20px;
+	background-color:white;
+	color:#333333;
+	margin-bottom:30px;
+	padding: 15px;
+	width: 524px;
+}
+.pravidla {
+	border-bottom:1px solid #D0D0D0;
+	font-size:small;
+	font-weight:bold;
+	margin-bottom:20px;
+	margin-top:10px;
+	padding:5px;
+	width:500px;
+}
+
+/* Zaznamy */
+.gray { color:gray; font-size:10px; }
+.info_gray { color:gray; font-size:10px; }
+.web2_checkbox { cursor:pointer; }
+.bingo_widget { height:30px; }
+#widget_logy .logs_kto { color:#0959B3; }
+#widget_logy .logs_komu { color:red; }
+#widget_logy .logs_co { color:green; }
+
+/* Komentare */
+.comments {
+
+}
+.comment {
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	background-color:#FFFFFF;
+	color:#555555;
+	font-size:10px;
+	padding:4px;	
+	border: 1px solid #E1E1E1;
+}
+.comment .white {
+	background-color:#fff;
+}
+.comment .black {
+	background-color:#F1F1F1;	
+}
+.comment .avatar {
+	display:table-cell;
+	width:100px;	
+	padding:4px;
+	text-align: center;
+	border-right: 1px solid #E1E1E1;
+}
+.comment .avatar a{
+	display: block;	
+}
+.comment .right {
+	display:table-cell;
+	width:100%;
+	vertical-align:top;
+	padding: 5px;	
+}
+.comment .right .calendar {
+	float:right;	
+	background-image: url(/webb/web2/images/tool/clock.png);
+	background-position:66px 0;
+	background-repeat: no-repeat;
+	padding-right:15px;
+}
+.comment .right .text {
+	overflow:hidden; 
+	width:100%;
+	text-align:justify;
+}
+.comment .right .p { 
+	padding-top:5px;
+}
+.comment .right .p a { 
+	font-size:1em; 
+	font-weight:normal; 
+	margin:0 20px 0 0; 
+	color:#2B84C6; 
+}
+.comment-for .bbcode { width: 45px; padding-right:4px; }
+.comment-form .bbcode img{ padding-top: 1px; cursor: pointer; }
+.comment .right .q { }
+.comment .right .qon { }
+.comment .right .qoff { }
+
+/* Misc */
+.news-autor {
+    color:#4E8AD5;
+    font-family:Arial;
+    font-size:13px;
+    font-weight:bold;
+}
+.miniwindow {
+    display: block;
+    position: fixed;
+    overflow: hidden;
+}
+.kandidovat_popis { width: 400px; }
+#tabs_admin .bingo .new_admin_name { display: table-cell; width:80%; }
+#tabs_admin .bingo .new_admin_comm { padding:2px; text-align:center; width:20%; display: table-cell; }
+.ui-icon2 { 
+	cursor:pointer; 
+	display:inline-block;
+	width: 16px; 
+	height: 16px; 
+	background-image:url(/webb/web2/images/theme/ui-icons_228ef1_256x240.png); 
+	background-repeat:no-repeat;
+	overflow:hidden;
+	text-indent:-99999px;
+}
+
+/* Hodnosti */
+.user .h1 { color:#9C0707; }
+.user .h2 { color:#ff6633; }
+.user .h3 { color:#0099ff; }
+.user .h4 { color:#999900; }
+.user .h5 { color:#00B300; }
+
+
+/* Uzivatelia */
+.user .a { cursor: pointer; margin-right: 12px;}
+.user .b { display: none; }
+#popup_okno, #popup_user_cache {
+	position: absolute; 
+	display: none; 
+	z-index: 1000;
+}
+#popup_okno .a { border: 1px solid rgb(204, 204, 204); /*width: 150px;*/ }
+#popup_okno .b {
+	padding: 2px; 
+	background: rgb(255, 255, 255) url( ) repeat scroll 0% 0%; 
+	color: rgb(51, 51, 51); 
+	font-family: Verdana; 
+	font-style: normal; 
+	font-variant: normal; 
+	font-weight: normal; 
+	font-size: 10px; 
+	line-height: normal; 
+	font-size-adjust: none; 
+	font-stretch: normal; 
+	-x-system-font: none; 
+	-moz-background-clip: border; 
+	-moz-background-origin: padding; 
+	-moz-background-inline-policy: continuous;
+}
+.priatelia_panel { height: 100%; width: 190px; overflow:auto; }
+.eprofiltextbox {
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	color : #555;
+	background-color : #f8f8f8;
+	border : 1px solid #ccc;   
+}

@@ -1,0 +1,34 @@
+/* Stavky */
+.stavky_nezn {color: #0099FF; }
+.stavky_zle{color: #FF6600; }
+.stavky_ukon {color: #009966; }
+.stavka_tab { margin-bottom: 20px; padding:3px; cursor: pointer;} 
+.stavka_tab_td  { color:white; font-size:13px; font-weight:bold; padding:1px;} 
+.padding_left { padding-left: 10px; }
+#stavky_close { color: white; font-size: 10px; margin-right: 8px; }
+#stavky_p {
+	width: 13%;
+	position: fixed;
+	top: 22%;
+	right: 0%;
+	overflow:hidden;
+	cursor: pointer;
+}
+#stavky_inner {
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft:10px;
+	background-color:#FFFFFF;
+	border-bottom:1px solid #C8CFD5;
+	border-top:1px solid #C8CFD5;
+	border-left:1px solid #C8CFD5;
+	color:#777777;
+	font-size:10px;
+	padding: 4px;
+	opacity:0.9;
+}
+
+/* U stavok */
+.dolnaciara { border-bottom: 1px solid #0099FF; }
+.malepismo {	font-size:9px;	}
+.malepismo  td {	font-size:9px;	}
+.stavky_innerposun {	padding-right: 6px; }

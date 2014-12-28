@@ -1,0 +1,160 @@
+# Eror
+ErrorDocument 404 /webb/error.php?id=404
+ErrorDocument 403 /webb/error.php?id=403
+ErrorDocument 401 /webb/error.php?id=401
+ErrorDocument 500 /webb/error.php?id=500
+
+# Cool URI
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /webb/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R]
+ 
+# Dalsie
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^hrac/([^/]+)/?$ profil.php?lookup=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^admin-team/?$ admin-team.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^novinka/([^/]+)/?$ index.php?readmore=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^novinky/([^/]+)/?$ index.php?rowstart=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^hrac/([^/]+)/posli-spravu/?$ messages.php?msg_send=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^clanok/([^/]+)/?$ readarticle.php?article_id=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^server/([^/]+)/?$ server.php?p1=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^servery/?$ server.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^upravit-profil/?$ editprofile.php [L,QSA]
+       
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^nastavenie/?$ nastavenie.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^vip/?$ viewpage.php?page_id=5 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^registrovat/?$ register.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^stratene-heslo/?$ lostpassword.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^registrovat/([^/]+)/?$ register.php?referral=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^obchod/?$ shop.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^hladaj/?$ search.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^stavky/?$ stavky.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^vip-sloty/?$ vipsloty.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^setuser/?$ setuser.php [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^galeria/?$ galeria.php [L,QSA]
+
+# Rank admin
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^rank-admin/server/([^/]+)/?$ rankadmin.php?server=true&id=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^rank-admin/servers/?$ rankadmin.php?servers=true [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^rank-admin/([^/]+)/?$ rankadmin.php?id=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^rank-admin/?$ rankadmin.php [L,QSA]
+
+# Kandidovat
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^kandidovat/kandidat/([^/]+)/?$ kandidovat.php?info=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^kandidovat/server/([^/]+)/?$ kandidovat.php?server=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^kandidovat/ziadost/?$ kandidovat.php?ziadost=true [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^kandidovat/?$ kandidovat.php [L,QSA]
+
+# Zaznamy
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^zaznamy/([^/]+)/([^/]+)/?$ zaznamy.php?p1=$1&p2=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^zaznamy/([^/]+)/?$ zaznamy.php?p1=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^zaznamy/?$ zaznamy.php [L,QSA]
+
+# Info cast
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^pravidla/?$ info.php?web=pravidla [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^pravidla/herne/?$ info.php?web=herne [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^pravidla/ligove/?$ info.php?web=ligove [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^kredity/?$ info.php?web=kredity [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^legenda/?$ info.php?web=legenda [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^sponzori/?$ info.php?web=sponzori [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^historia/?$ info.php?web=historia [L,QSA]
+
+# Banka
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^zombie-banka/([^/]+)/([^/]+)/?$ banka.php?p0=1&p1=$1&p2=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^zombie-banka/([^/]+)/?$ banka.php?p0=1&p1=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^zombie-banka/?$ banka.php?p0=1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^deathrun-banka/([^/]+)/([^/]+)/?$ banka.php?p0=0&p1=$1&p2=$2 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^deathrun-banka/([^/]+)/?$ banka.php?p0=0&p1=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^deathrun-banka/?$ banka.php?p0=0 [L,QSA]
+
+</IfModule>
